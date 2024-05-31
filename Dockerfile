@@ -23,7 +23,7 @@ COPY ./src ./src
 RUN npm run build_prod
 
 # build minified version of frontend, served using caddy
-FROM caddy:2.3.0-alpine
+FROM caddy:2.7.6-alpine
 
 WORKDIR /explorer
 
